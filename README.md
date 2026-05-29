@@ -55,6 +55,11 @@ A aplicação de modelos de machine learning sobre dados clínicos e laboratoria
 .
 ├── data/
 │   └── Base_M43_Pratique_Hypothyroid.csv    # Dataset utilizado
+├── imagens/
+│   ├── comparacao_confusion_matrix.png       
+│   ├── comparacao_metricas.png
+│   ├── comparacao_roc.png
+│   └── features.png
 ├── src/
 │   ├── data_utils.py                         # Funções de tratamento e análise dos dados
 │   ├── plot_utils.py                         # Funções de visualização reutilizáveis
@@ -221,7 +226,7 @@ Os cinco fatores mais determinantes identificados pelo modelo (Feature Importanc
 
 ### Importância das Variáveis no XGBoost
 
-![Feature Importance](imagens/feature_importance.png)
+![Feature Importance](imagens/features.png)
 
 Esses resultados estão alinhados com o protocolo clínico de investigação do hipertireoidismo, que tem o TSH como exame de primeira linha. O modelo demonstra capacidade de replicar o raciocínio diagnóstico laboratorial, podendo atuar como ferramenta de apoio à triagem automatizada em contextos de atenção primária ou análise de grandes volumes de dados clínicos.
 
