@@ -53,13 +53,17 @@ A aplicação de modelos de machine learning sobre dados clínicos e laboratoria
 
 ```
 .
+├── apresentação/
+│   └── Apresentação Predição de Hipertiroidismo.pdf    # PDF com a apresentação do projeto
 ├── data/
 │   └── Base_M43_Pratique_Hypothyroid.csv    # Dataset utilizado
 ├── imagens/
+│   ├── barras-target.png  
 │   ├── comparacao_confusion_matrix.png       
 │   ├── comparacao_metricas.png
 │   ├── comparacao_roc.png
-│   └── features.png
+│   ├── features.png
+│   └── mediana-tsh-por-target.png
 ├── src/
 │   ├── data_utils.py                         # Funções de tratamento e análise dos dados
 │   ├── plot_utils.py                         # Funções de visualização reutilizáveis
